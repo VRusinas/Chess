@@ -1,0 +1,27 @@
+table {
+  padding-top: 10%;
+  margin:auto;
+  border-spacing: 10px;
+}
+div{
+  width:30px;
+  padding-bottom:30px;
+  margin: 30px;
+}
+div:nth-child(2n+1){
+    background-color: #2cd64d;
+}
+div:nth-child(2n){
+    background-color: #f05712;
+}
+
+th, td:nth-of-type(odd){
+  background-color: #2cd64d;
+  border: 5px solid #f05712;
+  width:50px;
+}
+th, td:nth-of-type(even){
+  background-color: #f05712;
+  border: 5px solid #2cd64d;
+  width:50px;
+}
